@@ -1,0 +1,149 @@
+
+.container {
+  position: relative;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: x-large;
+  width: 700px;
+  height: 1000px;
+  padding: 40px 30px 30px;
+  border-radius: 20px;
+  background: linear-gradient(319deg, #525151, #a2a1a1);
+  box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.container .spanx {
+  color: #fff;
+  right: 6px;
+  bottom: 3px;
+  /* margin-top: 3px; */
+  /* margin-left: 0px; */
+  position: relative;
+  display: grid;
+  width: 80px;
+  place-items: center;
+  margin: 8px;
+  height: 80px;
+  background: linear-gradient(352deg, #808080, #3f3f3f);
+  box-shadow: inset -2px -3px 14px 0px rgba(0, 0, 0, 0.15),
+    inset 19px -8px 16px 1px rgba(0, 0, 0, 0.25),
+    0px 0px 0px 1px rgb(59 59 59), 10px 20px 25px rgba(0, 0, 0, 0.4);
+  user-select: none;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.eqspan {
+  color: #ffffff;
+  right: 6px;
+  bottom: 3px;
+  /* margin-top: 3px; */
+  /* margin-left: 0px; */
+  position: relative;
+  display: grid;
+  width: 80px;
+  place-items: center;
+  margin: 8px;
+  height: 80px;
+  background: linear-gradient(352deg, #03a9f4, #36c1ff);
+  box-shadow: inset -2px -3px 14px 0px rgba(0, 0, 0, 0.15),
+    inset 19px -8px 16px 1px rgba(0, 0, 0, 0.25),
+    0px 0px 0px 1px rgb(79 192 244), 10px 20px 25px rgba(0, 0, 0, 0.4);
+  user-select: none;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.acspan {
+  color: #ffffff;
+  right: 6px;
+  bottom: 3px;
+  /* margin-top: 3px; */
+  /* margin-left: 0px; */
+  position: relative;
+  display: grid;
+  width: 80px;
+  place-items: center;
+  margin: 8px;
+  height: 80px;
+  background: linear-gradient(352deg, #f40303, #f78080);
+  box-shadow: inset -2px -3px 14px 0px rgba(0, 0, 0, 0.15),
+    inset 19px -8px 16px 1px rgba(0, 0, 0, 0.25),
+    0px 0px 0px 1px rgb(244 79 79), 10px 20px 25px rgba(0, 0, 0, 0.4);
+  user-select: none;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 10px;
+}
+.scrn {
+  text-align: right;
+  margin-bottom: 38px;
+  padding-bottom: 1rem;
+  border-radius: 7px;
+  background: linear-gradient(45deg, #a3b76c, #bfc7a8);
+  width: 633.4px;
+  height: 104.4px;
+  box-shadow: inset 10px 9px 0px 0px rgba(0, 0, 0, 0.15),
+    inset -1px -7px 16px 7px rgba(0, 0, 0, 0.25),
+    0px 0px 0px 1px rgb(59 59 59), 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+.calculator span i {
+  position: relative;
+  font-style: normal;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.bnum {
+  margin: 1rem;
+  border: 3px solid black;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  padding-right: 0px;
+  padding-bottom: 6px;
+  border-radius: 1rem;
+  background: linear-gradient(4deg, #696969a6, #3f3f3f);
+  background-color: #484848ee;
+  box-shadow: inset -2px -3px 14px 0px rgba(0, 0, 0, 0.15),
+    inset 19px -8px 16px 1px rgba(0, 0, 0, 0.25),
+    inset 6px -5px 20px 3px rgb(120 117 117);
+}
+
+.eqbnum {
+  margin: 1rem;
+  border: 3px solid black;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  padding-right: 0px;
+  padding-bottom: 6px;
+  border-radius: 1rem;
+  background: linear-gradient(4deg, #19b4fa, #03a9f4);
+  background-color: #03a9f4;
+  box-shadow: inset -2px -3px 14px 0px rgba(0, 0, 0, 0.15),
+    inset 19px -8px 16px 1px rgba(0, 0, 0, 0.25),
+    inset 6px -5px 20px 3px #03a9f4;
+}
+.acbnum {
+  margin: 1rem;
+  border: 3px solid black;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  padding-right: 0px;
+  padding-bottom: 6px;
+  border-radius: 1rem;
+  background: linear-gradient(4deg, #fa1919, #f40303);
+  background-color: #f40303;
+  box-shadow: inset -2px -3px 14px 0px rgba(0, 0, 0, 0.15),
+    inset 19px -8px 16px 1px rgba(0, 0, 0, 0.25),
+    inset 6px -5px 20px 3px #f40303;
+}
+.numbox {
+  margin-left: 1.5rem;
+}
